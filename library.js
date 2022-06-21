@@ -9,6 +9,7 @@ class Media{
     get title() {
       return this._title; //don't forget to return
     }
+    
     set isCheckedOut(newStatus){
         this._isCheckedOut = newStatus;
   }
@@ -104,7 +105,7 @@ const speed = new Movie('Speed','Jan de Bont', 116);
 //console.log(speed);
 
 speed.toggleCheckOutStatus();
-//console.log(speed.isCheckedOut);
+console.log(speed.isCheckedOut);
 console.log(speed);
 
 speed.addRating(1);
