@@ -37,14 +37,14 @@ Getters: all properties have getters
 Setters: the numberOfStudents property has a setter
 Methods: .quickFacts() and .pickSubstituteTeacher() (this is a static method)
 
-Primary
+Primary:
 Includes everything in the School class, plus one additional property
 Properties: pickupPolicy (string)
 
-Middle
+Middle:
 Does not include any additional properties or methods
 
-High
+High:
 Includes everything in the School class, plus one additional property
 Properties: sportsTeams (array of strings)
 If you’re looking for a challenge, create the constructor() and getters for the four classes above. Then, use the setter and methods specifications in steps five, six, and seven to finish the project.
